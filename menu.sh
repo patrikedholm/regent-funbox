@@ -1,6 +1,6 @@
 #!/bin/sh
 
-figlet wernight/funbox
+figlet regent/funbox
 
 choice=""
 
@@ -50,9 +50,9 @@ case $choice in
   '9') exec bb;;
   '10') exec sl;;
   '11') exec youtube 'https://www.youtube.com/watch?v=_7vkRTylYoA';;
-  '12') exec cowsay 'wernight/funbox';;
-  '13') exec figlet 'wernight/funbox';;
-  '14') exec toilet 'wernight/funbox';;
+  '12') exec cowsay 'regent/funbox';;
+  '13') exec figlet 'regent/funbox';;
+  '14') exec toilet 'regent/funbox';;
   '15') convert /examples/blob-beroux.png ~/blob-beroux.pgm && exec aview ~/blob-beroux.pgm;;
   '16') exec cacaview examples/blob-beroux.png;;
   '17') fortune | exec boxes -d parchment;;
