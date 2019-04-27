@@ -33,6 +33,7 @@ echo '     20) `lolcat` - Colorful `cat`'
 echo 'Random text generator:'
 echo ' 21) `rig` - Kind of person ID'
 echo ' 22) `fortune` - Random fortune cookie message'
+echo ' 23) `Ivan` - Troling 4 real'
 echo
 
 read -p 'Menu: ' choice
@@ -61,5 +62,6 @@ case $choice in
   '20') cat /examples/0?.txt | exec lolcat -a -d 1 -F 0.09;;
   '21') exec rig;;
   '22') exec fortune riddles;;
+  '23') exec cvlc --no-audio -V caca /examples/ivan.mp4;;
   *) echo "Invalid menu number!!! Leaving now.";;
 esac
