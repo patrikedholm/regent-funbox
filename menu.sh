@@ -33,7 +33,8 @@ echo '     20) `lolcat` - Colorful `cat`'
 echo 'Random text generator:'
 echo ' 21) `rig` - Kind of person ID'
 echo ' 22) `fortune` - Random fortune cookie message'
-echo ' 23) `Ivan` - Troling 4 real'
+echo ' 23) `Ivan` - Troling coffee'
+echo ' 24) `Ivan` - Troling 4 real'
 echo
 
 read -p 'Menu: ' choice
