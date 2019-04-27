@@ -1,5 +1,5 @@
 FROM wernight/funbox
 
-COPY examples/ivan-computer.mp4 examples/ivan-computer.mp4
+COPY examples/. examples/
 
 ADD menu.sh /
